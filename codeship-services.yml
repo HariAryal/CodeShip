@@ -1,0 +1,8 @@
+demodockerfile:
+  build:
+    image: demodockerfile
+    dockerfile_path: Dockerfile
+demodockerfiledockercompose:
+  build: .
+demohub:
+  image: ubuntu:18.04
