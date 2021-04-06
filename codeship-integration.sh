@@ -10,8 +10,8 @@ API_URL='https://7iggpnqgq9.execute-api.us-east-2.amazonaws.com/udbodh/api'
 INTEGRATION_JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2lkIjozMzMsImFwaV9rZXlfaWQiOjMyMzcsIm5hbWUiOiIiLCJkZXNjcmlwdGlvbiI6IiIsImljb24iOiIiLCJpbnRlZ3JhdGlvbl9uYW1lIjoiQml0YnVja2V0Iiwib3B0aW9ucyI6e30sImlhdCI6MTYxNzY4MTQ2MX0.FkM0WoBaVmmxVyHY6_ZgVD_vF5cDxppvnhKXFCdkDoM'
 INTEGRATIONS_API_URL='http://4ae802c42a40.ngrok.io'
  
-apt-get update -y
-apt-get install -y jq
+sudo apt-get update -y
+sudo apt-get install -y jq
  
 #Trigger test run
 TEST_RUN_ID="$( \
