@@ -4,7 +4,7 @@ set -ex
  
 PROJECT_ID='333'
 API_KEY='0gdAzMkEvcVSoH6adocE2GsGe6htk6lazoHZhE54'
-CLIENT_ID='c52d9c3c5c38b2a754e4c7ed118c62e2'
+CLIENT_ID=' http://7a7890ebf1ed.ngrok.io'
 SCOPES=['"ViewTestResults"','"ViewAutomationHistory"']
 API_URL='https://7iggpnqgq9.execute-api.us-east-2.amazonaws.com/udbodh/api'
 INTEGRATION_JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwcm9qZWN0X2lkIjozMzMsImFwaV9rZXlfaWQiOjMyMzcsIm5hbWUiOiIiLCJkZXNjcmlwdGlvbiI6IiIsImljb24iOiIiLCJpbnRlZ3JhdGlvbl9uYW1lIjoiQml0YnVja2V0Iiwib3B0aW9ucyI6e30sImlhdCI6MTYxNzY4MTQ2MX0.FkM0WoBaVmmxVyHY6_ZgVD_vF5cDxppvnhKXFCdkDoM'
